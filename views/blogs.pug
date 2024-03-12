@@ -1,0 +1,10 @@
+extends layout.pug 
+
+block content
+    div.container2
+        h1 All Blogs
+
+        each blog in blogs
+            div.bloggs
+                a.block(href=`/blogs/${blog.id}`) #{blog.title}
+                a.delete(href=`/${blog.id}/delete`) delete
