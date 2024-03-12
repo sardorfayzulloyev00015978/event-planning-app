@@ -1,40 +1,51 @@
 # Event Planner Application
 
-## Overview
+## About the App
 
-This Event Planner application is a web-based platform designed to allow users to create, view, edit, and delete events. It's built using Node.js, Express, and Pug for templating.
+The Event Planner Application enables users to organize and share event details. It supports creating, viewing, editing, and deleting events, with features for setting dates, locations, and descriptions.
 
-## Installation
+## Getting Started
 
 ### Prerequisites
 
-- Node.js
-- NPM
+- Install [Node.js](https://github.com/sardorfayzulloyev00015978/event-planning-app)
+- npm (comes with Node.js)
 
-### Steps
+### Installing
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory and run `npm install` to install dependencies.
-3. Start the application with `node app.js`.
-4. Visit `http://localhost:3000` in your browser to use the application.
+1. **Clone the repository:**
+   ```bash
+   git clone [repository-link]
+   ```
 
-## Features
+### Navigate to the project directory:
 
-- Create events with titles, descriptions, dates, and locations.
-- View a list of all created events.
-- Edit and delete events.
+```bash
+cd event-planner-application
+```
+
+### Install dependencies:
+
+```bash
+npm install
+```
+
+### Start the server:
+
+```bash
+node app.js
+```
+
+## Application Dependencies
+
+**Express:** Web framework for Node.js.
+**Pug:** Template engine.
+**FS:** File system module for file management.
 
 ## Project Structure
 
-- `app.js`: The main server file.
-- `views/`: Directory for Pug templates.
-- `public/data/`: Contains `data.json` for storing event data.
-- `public/static/`: Static assets like CSS.
-
-## Contributing
-
-Feel free to fork this project and submit pull requests for any improvements or fixes.
-
-## License
-
-This project is open-sourced under the MIT License.
+**/public:** Contains static files.
+**/views:** Houses Pug templates.
+**/public/data:** Stores events.json.
+**app.js:** Main server file.
+**package.json:** Project metadata and dependencies.
